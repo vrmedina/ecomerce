@@ -115,7 +115,7 @@ export default class App extends Component {
               aria-label="main navigation"
             >
               <div className="navbar-brand">
-                <b className="navbar-item is-size-4 ">E-Commerce</b>
+                <b className="navbar-item is-size-4 ">Amazonas</b>
 
                 <a
                   href="/"
@@ -140,15 +140,15 @@ export default class App extends Component {
                 }`}
               >
                 <Link to="/products" className="navbar-item">
-                  Products
+                  Productos
                 </Link>
                 {this.state.user && this.state.user.accessLevel < 1 && (
                   <Link to="/add-product" className="navbar-item">
-                    Add Product
+                    Añadir producto
                   </Link>
                 )}
                 <Link to="/cart" className="navbar-item">
-                  Cart
+                  Carrito
                   <span
                     className="tag is-primary"
                     style={{ marginLeft: "5px" }}
