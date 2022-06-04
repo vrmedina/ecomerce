@@ -10,7 +10,7 @@ const CartItem = props => {
           <div className="media-left">
             <figure>
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Google_logo_%282010-2013%29.svg/800px-Google_logo_%282010-2013%29.svg.png"
+                src="https://bulma.io/images/placeholders/128x128.png"
                 alt="product"
               />
             </figure>

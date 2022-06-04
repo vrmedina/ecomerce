@@ -6,9 +6,9 @@ const ProductList = props => {
   const { products } = props.context;
   return (
     <Fragment>
-      <div className="hero is-warning">
-        <div className="hero-body container">
-          <h4 className="title">Nuestros Productos</h4>
+      <div className="hero is-gradient">
+        <div className="hero-body container effect-holder">
+            <h4 className="title dropdown-style">Nuestros Productos</h4>
         </div>
       </div>
       <br />
@@ -25,7 +25,7 @@ const ProductList = props => {
           ) : (
             <div className="column">
               <span className="title has-text-grey-light">
-                No product found!
+                No se encontraron productos!
               </span>
             </div>
           )}

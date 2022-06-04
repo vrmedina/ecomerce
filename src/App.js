@@ -144,13 +144,13 @@ export default class App extends Component {
                 </Link>
                 {this.state.user && this.state.user.accessLevel < 1 && (
                   <Link to="/add-product" className="navbar-item">
-                    Añadir producto
+                    Añadir Producto
                   </Link>
                 )}
                 <Link to="/cart" className="navbar-item">
                   Carrito
                   <span
-                    className="tag is-primary"
+                    className="tag is-danger"
                     style={{ marginLeft: "5px" }}
                   >
                     {Object.keys(this.state.cart).length}
@@ -158,11 +158,11 @@ export default class App extends Component {
                 </Link>
                 {!this.state.user ? (
                   <Link to="/login" className="navbar-item">
-                    Login
+                    Ingresar
                   </Link>
                 ) : (
                   <a href="/" className="navbar-item" onClick={this.logout}>
-                    Logout
+                    Cerrar Sesión
                   </a>
                 )}
               </div>

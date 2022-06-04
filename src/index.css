@@ -13,3 +13,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.is-gradient {
+  background-image: linear-gradient(to right, red , yellow);
+}
+
+.effect-holder {
+  height: auto;
+  width: calc(33.3% - 1rem);
+  border-radius: 16px;
+  float: left;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.dropdown-style {
+  margin: 0 0.5rem 0 0;
+  background-color: #ffffff7d;   
+  margin: 2rem;
+  border-radius: 12px;
+  padding: 1rem;
+  position: relative;
+  box-shadow: 0 10px 15px rgb(0 0 0 / 20%);
+  box-sizing: border-box;
+  width: calc(100% - 4rem);
+  color: rgba(0,0,0,0.8);
+  backdrop-filter: blur(33px);
+  background-blend-mode: overlay;
+  display: flex;
+  align-items: center;
+}
+

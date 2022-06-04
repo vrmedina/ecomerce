@@ -16,20 +16,20 @@ class Login extends Component {
   login = () => {
     const { username, password } = this.state;
     if (!username || !password) {
-      return this.setState({ error: "Fill all fields!" });
+      return this.setState({ error: "Rellene todos los campos!" });
     }
     let loggedIn = this.props.context.login(username, password);
     if (!loggedIn) {
-      this.setState({ error: "Invalid Credentails" });
+      this.setState({ error: "Credenciales inválidas" });
     }
   };
 
   render() {
     return !this.props.context.user ? (
       <Fragment>
-        <div className="hero is-primary ">
-          <div className="hero-body container">
-            <h4 className="title">Login</h4>
+        <div className="hero is-gradient">
+          <div className="hero-body container effect-holder">
+            <h4 className="title dropdown-style">Ingresar</h4>
           </div>
         </div>
         <br />
@@ -37,7 +37,7 @@ class Login extends Component {
         <div className="columns is-mobile is-centered">
           <div className="column is-one-third">
             <div className="field">
-              <label className="label">User Name: </label>
+              <label className="label">Usuario: </label>
               <input
                 className="input"
                 type="text"
@@ -46,7 +46,7 @@ class Login extends Component {
               />
             </div>
             <div className="field">
-              <label className="label">Password: </label>
+              <label className="label">Contraseña: </label>
               <input
                 className="input"
                 type="password"
@@ -59,10 +59,10 @@ class Login extends Component {
             )}
             <div className="field is-clearfix">
               <button
-                className="button is-primary is-outlined is-pulled-right"
+                className="button is-danger is-outlined is-pulled-right"
                 onClick={this.login}
               >
-                Submit
+                Ingresar
               </button>
             </div>
           </div>

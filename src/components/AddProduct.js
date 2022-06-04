@@ -45,9 +45,9 @@ class AddProduct extends Component {
       <Redirect to="/" />
     ) : (
       <Fragment>
-        <div className="hero is-primary ">
-          <div className="hero-body container">
-            <h4 className="title">Login</h4>
+        <div className="hero is-gradient ">
+          <div className="hero-body container effect-holder">
+            <h4 className="title dropdown-style">Agregar Producto</h4>
           </div>
         </div>
         <br />
@@ -56,7 +56,7 @@ class AddProduct extends Component {
           <div className="columns is-mobile is-centered">
             <div className="column is-one-third">
               <div className="field">
-                <label className="label">Product Name: </label>
+                <label className="label">Nombre del Producto: </label>
                 <input
                   className="input"
                   type="text"
@@ -67,7 +67,7 @@ class AddProduct extends Component {
                 />
               </div>
               <div className="field">
-                <label className="label">Price: </label>
+                <label className="label">Precio: </label>
                 <input
                   className="input"
                   type="number"
@@ -78,7 +78,7 @@ class AddProduct extends Component {
                 />
               </div>
               <div className="field">
-                <label className="label">Available in Stock: </label>
+                <label className="label">Cantidad Disponible: </label>
                 <input
                   className="input"
                   type="number"
@@ -88,7 +88,7 @@ class AddProduct extends Component {
                 />
               </div>
               <div className="field">
-                <label className="label">Short Description: </label>
+                <label className="label">Descripción Corta: </label>
                 <input
                   className="input"
                   type="text"
@@ -98,7 +98,7 @@ class AddProduct extends Component {
                 />
               </div>
               <div className="field">
-                <label className="label">Description: </label>
+                <label className="label">Descripción: </label>
                 <textarea
                   className="textarea"
                   type="text"
@@ -114,11 +114,11 @@ class AddProduct extends Component {
               )}
               <div className="field is-clearfix">
                 <button
-                  className="button is-primary is-outlined is-pulled-right"
+                  className="button is-danger is-outlined is-pulled-right"
                   type="submit"
                   onClick={this.save}
                 >
-                  Submit
+                  Agregar
                 </button>
               </div>
             </div>

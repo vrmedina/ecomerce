@@ -2541,10 +2541,10 @@
   "resolved" "https://registry.npmjs.org/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz"
   "version" "3.0.0"
 
-"bulma@^0.8.1":
-  "integrity" "sha512-Afi2zv4DKmNSYfmx55V+Mtnt8+WfR8Rs65kWArmzEuWP7vNr7dSAEDI+ORZlgOR1gueNZwpKaPdUi4ZiTNwgPA=="
-  "resolved" "https://registry.npmjs.org/bulma/-/bulma-0.8.1.tgz"
-  "version" "0.8.1"
+"bulma@^0.9.4":
+  "integrity" "sha512-86FlT5+1GrsgKbPLRRY7cGDg8fsJiP/jzTqXXVqiUZZ2aZT8uemEOHlU1CDU+TxklPEZ11HZNNWclRBBecP4CQ=="
+  "resolved" "https://registry.npmjs.org/bulma/-/bulma-0.9.4.tgz"
+  "version" "0.9.4"
 
 "bytes@3.0.0":
   "integrity" "sha1-0ygVQE1olpn4Wk6k+odV3ROpYEg="

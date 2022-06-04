@@ -7,9 +7,9 @@ const Cart = props => {
   const cartKeys = Object.keys(cart || {});
   return (
     <Fragment>
-      <div className="hero is-primary">
-        <div className="hero-body container">
-          <h4 className="title">My Cart</h4>
+      <div className="hero is-gradient">
+        <div className="hero-body container effect-holder">
+          <h4 className="title dropdown-style">Mi Carrito</h4>
         </div>
       </div>
       <br />
@@ -31,20 +31,20 @@ const Cart = props => {
                   onClick={props.context.clearCart}
                   className="button is-warning "
                 >
-                  Clear cart
+                  Vaciar Carrito
                 </button>{" "}
                 <button
                   className="button is-success"
                   onClick={props.context.checkout}
                 >
-                  Checkout
+                  Ir a Pagar
                 </button>
               </div>
             </div>
           </div>
         ) : (
           <div className="column">
-            <div className="title has-text-grey-light">No item in cart!</div>
+            <div className="title has-text-grey-light">Su carrito está vacío!</div>
           </div>
         )}
       </div>
