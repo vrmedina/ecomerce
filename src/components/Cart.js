@@ -34,7 +34,7 @@ const Cart = props => {
                   Vaciar Carrito
                 </button>{" "}
                 <button
-                  className="button is-success"
+                  className="button is-danger"
                   onClick={props.context.checkout}
                 >
                   Ir a Pagar

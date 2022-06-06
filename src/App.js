@@ -69,6 +69,7 @@ export default class App extends Component {
     });
     this.setState({ products });
     this.clearCart();
+    alert('El pago se realizó exitosamente')
   };
 
   removeFromCart = cartItemId => {
@@ -115,7 +116,18 @@ export default class App extends Component {
               aria-label="main navigation"
             >
               <div className="navbar-brand">
+                <a
+                  href="/products"
+                  role="button"
+                  className="navbar-brand"
+                  onClick={e => {
+                    e.preventDefault();
+                    this.setState({ showMenu: !this.state.showMenu });
+                  }}
+                >
+                <img src="/favicon.ico" alt="logo" width="45" height="20"/>
                 <b className="navbar-item is-size-4 ">Amazonas</b>
+                </a>
 
                 <a
                   href="/"
@@ -175,6 +187,7 @@ export default class App extends Component {
               <Route exact path="/add-product" component={AddProduct} />
               <Route exact path="/products" component={ProductList} />
             </Switch>
+            
           </div>
         </Router>
       </Context.Provider>

@@ -7,8 +7,8 @@ const ProductList = props => {
   return (
     <Fragment>
       <div className="hero is-gradient">
-        <div className="hero-body container effect-holder">
-            <h4 className="title dropdown-style">Nuestros Productos</h4>
+        <div className="hero-body container effect-holder ">
+            <h4 className="title dropdown-style ">Nuestros Productos</h4>
         </div>
       </div>
       <br />
@@ -30,6 +30,7 @@ const ProductList = props => {
             </div>
           )}
         </div>
+
       </div>
     </Fragment>
   );
