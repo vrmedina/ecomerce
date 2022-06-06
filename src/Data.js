@@ -14,11 +14,19 @@ export default {
     },
     {
       name: "Machete",
-      stock: 10,
+      stock: 5,
       price: 45200,
       shortDesc: "Arma blanca pesada.",
       description:
         "Arma blanca , más corta que la espada , ancha , pesada y de un solo filo . 2. m. Cuchillo grande que sirve para desmontar, cortar la caña de azúcar y otros usos."
+    },
+    {
+      name: "Destornillador",
+      stock: 45,
+      price: 11000,
+      shortDesc: "Herramienta de mano.",
+      description:
+        "Los destornilladores son herramientas de mano diseñados para apretar o aflojar tornillos ranurados de fijación, sobre materiales de madera, metálicos, plásticos, etc."
     },
     {
       name: "bags",

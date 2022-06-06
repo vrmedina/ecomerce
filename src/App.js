@@ -169,11 +169,11 @@ export default class App extends Component {
                   </span>
                 </Link>
                 {!this.state.user ? (
-                  <Link to="/login" className="navbar-item">
+                  <Link to="/login" className="navbar-item navbar-end">
                     Ingresar
                   </Link>
                 ) : (
-                  <a href="/" className="navbar-item" onClick={this.logout}>
+                  <a href="/" className="navbar-item navbar-end " onClick={this.logout}>
                     Cerrar Sesión
                   </a>
                 )}
@@ -187,7 +187,18 @@ export default class App extends Component {
               <Route exact path="/add-product" component={AddProduct} />
               <Route exact path="/products" component={ProductList} />
             </Switch>
-            
+                  
+            <footer class=" hero footer pb-2 is-gradient pt-2">
+              <div class="content container has-text-centered effect-holder">
+                <p class="dropdown-style">
+                  <strong>Amazonas: </strong> responsable <a href="https://github.com/vrmedina/">vrmedina</a>. El codigo fuente tiene licencia
+                  <a href="http://opensource.org/licenses/mit-license.php"> MIT</a>. El contenido del sitio
+                  tiene licencia <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+                </p>
+              </div>
+            </footer>
+
+
           </div>
         </Router>
       </Context.Provider>
