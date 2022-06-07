@@ -1,10 +1,16 @@
+# Amazonas marketplace project for Frontend Uninorte
+### Jesus Angulo, Arnaldo Benavides, Victor Medina
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Preview
+![image](https://user-images.githubusercontent.com/12649707/172388265-d239f503-7a40-4890-b5ea-58801e2d9c56.png)
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
