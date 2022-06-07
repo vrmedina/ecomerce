@@ -8,10 +8,7 @@ const ProductItem = props => {
         <div className="media">
           <div className="media-left">
             <figure className="image is-64x64">
-              <img
-                src="https://bulma.io/images/placeholders/128x128.png"
-                alt="product"
-              />
+              <img src="https://static9.depositphotos.com/1006187/1077/i/450/depositphotos_10772874-stock-photo-toolbox.jpg" alt="toolbox"></img>
             </figure>
           </div>
           <div className="media-content">

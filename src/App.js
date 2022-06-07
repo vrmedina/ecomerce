@@ -188,16 +188,15 @@ export default class App extends Component {
               <Route exact path="/products" component={ProductList} />
             </Switch>
                   
-            <footer class=" hero footer pb-2 is-gradient pt-2">
-              <div class="content container has-text-centered effect-holder">
-                <p class="dropdown-style">
+            <footer className=" hero footer pb-2 is-gradient pt-2">
+              <div className="content container has-text-centered effect-holder">
+                <p className=" dropdown-style">
                   <strong>Amazonas: </strong> responsable <a href="https://github.com/vrmedina/">vrmedina</a>. El codigo fuente tiene licencia
                   <a href="http://opensource.org/licenses/mit-license.php"> MIT</a>. El contenido del sitio
                   tiene licencia <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
                 </p>
               </div>
             </footer>
-
 
           </div>
         </Router>
